@@ -5,9 +5,9 @@ var Twitter = new twit(config);
 
 var retweet = function() {
     var params = {
-        q: '#thehackernews, #hackers',  // REQUIRED
+        q: '#thehackernews, #hackers',  // Change the hashstags to whatever you want retweeted.
         result_type: 'recent',
-        lang: 'en'
+        lang: 'en' // Change language to whatever floats your boat
     }
    
 
