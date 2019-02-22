@@ -15,3 +15,26 @@ var retweet = function () {
     language: "en"
   }
 }
+
+twitter.get("search/tweets", params, function(err, data( {
+//if we do not see errors
+    if (!err) {
+       var retweetID = data.statuses[0].id_str;
+twitter.post("statuses/retweet/:id", {
+    id: retweetID
+}, function(err, response) {
+    if (response) {
+       console.log("Retweeted!!!");
+}
+    if (err) {
+       console.log("Something went wrong while 'tweeting!!'");
+}
+});
+}
+    else {
+       console.log("Something went wrong while searching");
+}
+});
+}
+
+setInterval(retweet, 3000000);
