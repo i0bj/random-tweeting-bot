@@ -14,7 +14,7 @@ var retweet = function () {
   }
 }
 
-twitter.get("search/tweets", params, function(err, data( {
+twitter.get("search/tweets", params, function(err, data) {
 //if we do not see errors
     if (!err) {
        var retweetID = data.statuses[0].id_str;
