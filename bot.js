@@ -1,5 +1,4 @@
 /* This is the main bot program */
-
 let twit = require("twit"); // API client to communicate with Twitter
 let config = require("./config.js"); // Pulls config file into main program
 
