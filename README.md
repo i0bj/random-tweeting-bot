@@ -1,2 +1,2 @@
 
-This bot simply retweets cyber incidents/news based on key values & hashtags.
+#This super basic bot simply retweets cyber incidents/news based hashtags.
