@@ -5,7 +5,7 @@ var Twitter = new twit(config);
 
 var retweet = function() {
     var params = {
-        q: '#malware, #trump',  // Change the hashstags to whatever you want retweeted.
+        q: '#malware, #breach',  // Change the hashstags to whatever you want retweeted.
         result_type: 'recent',
         lang: 'en' // Change language to whatever floats your boat
     }
