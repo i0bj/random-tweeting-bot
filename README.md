@@ -1,2 +1,2 @@
 
-#This super basic bot simply retweets cyber incidents/news based hashtags.
+Basic bot that simply retweets tweets with malware and breach hashtags
